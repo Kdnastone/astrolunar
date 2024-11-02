@@ -18,7 +18,7 @@ Despliegue [LoginUserApp](https://astrolunar.netlify.app)
     </td>
         <td align="center">
       <img src="./public/yeraldin.jpeg" alt="andrea" width="200" height="200"><br>
-      Yeraldine
+      Yeraldin
     </td>
     <td align="center">
       <img src="./public/sandra.jpeg" alt="Sandra" width="200" height="200"><br>
