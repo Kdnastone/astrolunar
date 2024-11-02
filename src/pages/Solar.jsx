@@ -6,7 +6,7 @@ const Solar = () => {
     <div style={{ width: '100%', height: '100vh' }}>
       <h1>Visualizador del Sistema Solar</h1>
       <iframe
-        src=""
+        src="https://eyes.nasa.gov/apps/solar-system/#/home"
         title="NASA Eyes Solar System"
         width="100%"
         height="100%"
