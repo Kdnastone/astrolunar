@@ -30,11 +30,11 @@ const App = () => {
 
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/mars" element={<MarsPhotos />} />
-        <Route path="/add-planet" element={<AddPlanet onAddPlanet={handleAddPlanet} />}/>
-        <Route path="/planets" element={<PlanetsList />} />
-        <Route path="/nasa-eyes" element={<NasaEyes />} />
+        <Route path="/acerca" element={<Acerca />} />
+        <Route path="/mars" element={<Mars />} />
+        <Route path="/crear" element={<Crear onAddPlanet={handleAddPlanet} />}/>
+        <Route path="/listaPlanetas" element={<ListaPlanetas />} />
+        <Route path="/solar" element={<Solar />} />
 
         {/* Redirigir a /home por defecto */}
         <Route path="/" element={<Navigate to="/home" replace />} />
