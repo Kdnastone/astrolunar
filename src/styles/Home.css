@@ -6,7 +6,7 @@
 }
 
 .hero-section {
-background-color: #daa0f5;
+background-color: #d99bf1;
 color: #ffffff;
 text-align: center;
 padding: 50px 20px;
@@ -20,8 +20,11 @@ padding: 30px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-h1 {
-    color: #301b38;
+
+
+h2 {
+    color: #2a1b38;
+
     margin-bottom: 15px;
     text-align: center;
 }
@@ -35,5 +38,6 @@ p {
 .footer-section {
 text-align: center;
 margin-top: 50px;
-color: #555;
-}
+color: #555
+};
+

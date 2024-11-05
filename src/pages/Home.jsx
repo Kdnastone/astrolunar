@@ -5,11 +5,14 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="hero-section">
+
         <h1>Explorando el sistema solar </h1>
       </header>
 
       <section className="history-section">
         <h1>Nuestra Historia</h1>
+
+      
         <p>
           Esta es una página que utiliza la API de la NASA, la cual está
           relacionada con Marte. Esta API está diseñada para recopilar datos de
