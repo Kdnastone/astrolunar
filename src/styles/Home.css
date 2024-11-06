@@ -1,0 +1,43 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.hero-section {
+background-color: #d99bf1;
+color: #ffffff;
+text-align: center;
+padding: 50px 20px;
+margin-bottom: 30px;
+border-radius: 10px;
+}
+
+.history-section {
+background-color: #f7f7f7;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+
+h2 {
+    color: #2a1b38;
+
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+}
+
+.footer-section {
+text-align: center;
+margin-top: 50px;
+color: #555
+};
+
