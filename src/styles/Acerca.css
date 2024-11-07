@@ -1,0 +1,150 @@
+body {
+    background-image: url('../assets/imagenes/Galaxyas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    color: #A7C7E7;
+    text-shadow: 3px 3px 15px rgba(52, 26, 196, 0.8);
+    margin: 200px 0 100px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #b4dbdb;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #DCDCDC;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px auto;
+    width: 90%;
+    max-width: 1000px;
+    text-align: justify;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease-in-out;
+    animation: fadeIn 1s ease-out;
+
+  }
+  
+  p:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.08);
+  }
+  
+  .team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 40px;
+    padding: 0 20px;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 260px;
+    height: auto;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.9);
+  }
+  
+  .card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card img:hover {
+    transform: scale(1.1);
+  }
+  
+.card h2 {
+    font-size: 30px;
+    color: #F1F1F1;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .card p {
+    font-size: 1.1rem;
+    color: #A9A9A9;
+    background-color: #e0b2cb00; 
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .card a {
+    color: #66C2FF;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: color 0.3s ease, transform 0.2s ease-in-out;
+  }
+
+  .card a:hover {
+    color: #FF9F00;
+    text-decoration: underline;
+    transform: translateY(-2px); 
+  }
+  
+  .card a:active {
+    color: #FF1493;
+    transform: translateY(1px);
+  }
+  
+  .team-cards::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+  }
+  
