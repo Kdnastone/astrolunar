@@ -17,7 +17,7 @@ const Modal = ({ photo, onClose }) => {
                 <img 
                     src={photo.img_src} 
                     alt="Selected" 
-                    style={{ width: '300px', marginTop: '10px' }} 
+                    style={{ width: '100%', marginTop: '10px' }} 
                 />
                 <button onClick={onClose}>Cerrar</button>
             </div>
@@ -45,6 +45,11 @@ const modalStyle = {
     padding: '20px',
     borderRadius: '8px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+    width: '80%',
+    maxWidth: '500px',
+    maxHeight: '80%',
+    overflowY: 'auto',
+    boxSizing: 'border-box',
 };
 
 // Componente principal para mostrar fotos de Marte

@@ -66,3 +66,29 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    flex-direction: column;
+    padding: 5px;
+  }
+}
+

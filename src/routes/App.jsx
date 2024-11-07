@@ -20,22 +20,23 @@ const App = () => {
 
   return (
     <Router>
-      <Header></Header>
+      <Header />
+      <div className="main-content">
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/acerca" element={<Acerca />} />
+          <Route path="/mars" element={<Mars />} />
+          <Route path="/crear" element={<Crear onAddPlanet={handleAddPlanet} />} />
+          <Route path="/listaPlanetas" element={<ListaPlanetas />} />
+          <Route path="/solar" element={<Solar />} />
 
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/acerca" element={<Acerca />} />
-        <Route path="/mars" element={<Mars />} />
-        <Route path="/crear" element={<Crear onAddPlanet={handleAddPlanet} />}/>
-        <Route path="/listaPlanetas" element={<ListaPlanetas />} />
-        <Route path="/solar" element={<Solar />} />
+          {/* Redirigir a /home por defecto */}
+          <Route path="/" element={<Navigate to="/home" replace />} />
 
-        {/* Redirigir a /home por defecto */}
-        <Route path="/" element={<Navigate to="/home" replace />} />
-
-        {/* Ruta para manejar 404 Not Found */}
-        <Route path="*" element={<div>404 Not Found</div>} />
-      </Routes>
+          {/* Ruta para manejar 404 Not Found */}
+          <Route path="*" element={<div>404 Not Found</div>} />
+        </Routes>
+      </div>
     </Router>
   );
 };

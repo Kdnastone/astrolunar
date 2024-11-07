@@ -147,4 +147,72 @@ body {
     height: 30px;
     background: transparent;
   }
-  
+  /* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  h1 {
+      font-size: 3rem;
+      margin: 150px 0 80px;
+  }
+
+  p {
+      font-size: 1.2rem;
+  }
+
+  .card {
+      width: 220px;
+  }
+
+  .card h2 {
+      font-size: 25px;
+  }
+
+  .card p {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2.5rem;
+      margin: 100px 0 60px;
+  }
+
+  p {
+      font-size: 1.1rem;
+  }
+
+  .card {
+      width: 180px;
+  }
+
+  .card h2 {
+      font-size: 20px;
+  }
+
+  .card p {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 2rem;
+      margin: 80px 0 40px;
+  }
+
+  p {
+      font-size: 1rem;
+  }
+
+  .card {
+      width: 150px;
+  }
+
+  .card h2 {
+      font-size: 18px;
+  }
+
+  .card p {
+      font-size: 0.8rem;
+  }
+}

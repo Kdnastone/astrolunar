@@ -1,15 +1,21 @@
 nav {
     display: flex;
-    justify-content: center; 
-    background-color: rgb(14, 16, 16); 
-    padding: 10px 0; 
-    position: fixed; 
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+    height: 60px;
+    width: 100%;
+}
+
+.main-content {
+    margin-top: 70px;
+    padding-top: 150px; 
 }
 
 nav a {
@@ -29,21 +35,31 @@ nav a:hover {
     border-radius: 5px; 
 }
 
-
 nav a.active {
     background-color: #16a085; 
     color: white;
 }
 
-
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
+    .main-content {
+        margin-top: 90px;;
+    }
+
     nav {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
+        height: auto; 
+        min-height: 80px;
+        padding: 15px 0;
     }
 
     nav a {
-        padding: 15px 30px; 
-        font-size: 1.2rem; 
+        padding: 8px 15px;
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center;
     }
+
+
 }

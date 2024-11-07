@@ -4,10 +4,10 @@ import '../styles/Home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <header className="hero-section">
+      <header className="hero-section">      </header>
 
         <h1>Explorando el sistema solar</h1>
-      </header>
+
 
       <section className="history-section">
         <h1>Nuestra Historia</h1>

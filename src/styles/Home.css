@@ -75,3 +75,27 @@ body {
     margin-top: 50px;
     color: #f0e9e9;
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .menu-container {
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu-container {
+        padding: 6px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        padding: 4px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-container {
+        padding: 2px 0;
+    }
+}

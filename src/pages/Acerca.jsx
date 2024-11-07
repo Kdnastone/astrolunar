@@ -79,8 +79,6 @@ const Acerca = () => {
                 {/* noopener: Evita que la nueva página tenga acceso al objeto window.opener. */}
                 {/* noreferrer: Evita que la nueva página reciba info. de la URL de origen. */}
                 <a href={miembro.github} target="_blank" rel="noopener noreferrer">GitHub</a>
-                {/* href: Enlace para abrir LinkedIn según miembro */}
-                <a href={miembro.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </p>
               
             </div>
