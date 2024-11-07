@@ -1,0 +1,131 @@
+    form {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 30px;
+        border-radius: 20px;
+        max-width: 500px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+        text-align: left;
+        margin: 0 auto;
+        animation: fadeIn 1s ease-out;
+    }
+    
+    form div {
+        margin-bottom: 20px;
+    }
+    
+    form label {
+        color: #b4dbdb;
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    form input[type="text"],
+    form input[type="file"],
+    form textarea {
+        width: 90%;
+        padding: 10px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid #a7c7e7;
+        border-radius: 8px;
+        outline: none;
+        transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    }
+    
+    form input[type="text"]:focus,
+    form input[type="file"]:focus,
+    form textarea:focus {
+        background-color: rgba(0, 0, 0, 0.8);
+        transform: scale(1.02);
+    }
+    
+    form textarea {
+        height: 100px;
+        resize: none;
+    }
+    
+    button[type="submit"] {
+        background-color: #66c2ff;
+        color: #ffffff;
+        border: none;
+        padding: 12px 24px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #ff9f00;
+        transform: scale(1.05);
+    }
+    
+    button[type="submit"]:active {
+        background-color: #ff1493;
+    }
+    
+    h3 {
+        color: #a7c7e7;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    img {
+        display: block;
+        margin: 15px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        max-width: 150px;
+        max-height: 150px;
+    }
+    
+    
+    @keyframes fadeIn {
+        from {
+        opacity: 0;
+        transform: translateY(20px);
+        }
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+    .file-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 90px;
+    font-size: 1rem;
+    color: #b4dbdb;
+    }
+
+    .file-input {
+    display: none;
+    }
+
+    .custom-file-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #66c2ff;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    }
+
+    .custom-file-button:hover {
+    background-color: #ff9f00;
+    transform: scale(1.05);
+    }
+
+    .custom-file-button:active {
+    background-color: #ff1493;
+    }
+    
