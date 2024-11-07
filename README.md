@@ -4,7 +4,7 @@ Esta una aplicación desarrollada por el equipo de INNOVADORAS DIGITALES.<br>
 Este proyecto permite a los usuarios acercarse a algunos de los registros de NASA e interactuar con su creatividad para crear nuevos planetas.<br>
 
 Tablero [Trello](https://trello.com/b/2q7Yu8vH/astrolunar)
-Despliegue [LoginUserApp](https://astrolunar.netlify.app)
+Despliegue [Sistema Solar](https://astrolunar.netlify.app)
 
 <table align="center">
   <tr>

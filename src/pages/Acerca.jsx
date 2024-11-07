@@ -1,7 +1,7 @@
 
 import React from "react";
 import TeamInfo from "../components/information/TeamInfo";
-import '../styles/acerca.css'
+import '../styles/Acerca.css'
 
 const Acerca = () => {
 
