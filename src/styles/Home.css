@@ -1,75 +1,77 @@
-    body {
+body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #0b0c10;
-    color: #c5c6c7;
-    overflow-x: hidden;
-    }
+    font-family: 'Arial', sans-serif;
+    background-image:url('https://i.pinimg.com/originals/f5/e5/22/f5e522adbfb8a209f7b9aeeb18b02dad.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+}
 
-
-    .home-container {
-    background-image: url('../assets/imagenes/Galaxia.jpg');
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    }
-
-    .hero-section {
-    width: 100%;
+.menu-container {
+    background-color: #020202;
+    padding: 10px 0;
     text-align: center;
-    padding: 80px 20px;
-    color: #66fcf1;
-    
-    }
+    position: relative;
+}
 
-    .hero-section h1 {
-    font-size: 3.5rem;
-    font-family: 'Orbitron', sans-serif;
+.menu-container::before {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
     letter-spacing: 2px;
-    color: #66fcf1;
-    text-shadow: 0 0 10px rgba(102, 252, 241, 0.3);
-    }
+    display: inline-block;
+    padding: 10px 15px;
+}
 
+.menu-container::before {
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
 
-    .history-section {
-    max-width: 800px;
-    text-align: left;
-    padding: 40px;
-    
-    border-radius: 8px;
-    margin: 30px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    }
+.menu-container::before:hover {
+    color: #dddddd;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 17px;
+    border-radius: 5px;
+}
 
-    .history-section h1 {
-    font-size: 2.5rem;
-    font-family: 'Orbitron', sans-serif;
-    color: #45a29e;
-    border-bottom: 1px solid #45a29e;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    }
-
-    .history-section p {
-    line-height: 1.8;
-    font-size: 1.1rem;
-    color: #c5c6c7;
-    }
-
-    /* Footer */
-    .footer-section {
-    width: 100%;
-    text-align: center;
+.home-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
     padding: 20px;
-    background-color: #0b0c10;
-    color: #c5c6c7;
-    font-size: 0.9rem;
-    border-top: 2px solid #1f2833;
-    }
+    max-width: 1200px;
+    color: black;
+}
 
-    .footer-section p {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    color: #c5c6c7;
-    }
+.hero-section {
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.history-section {
+    background-color: #e1dede;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+}
+.history-section h1 {
+    color: #ebe8ef;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.history-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #e1dede;
+}
+.footer-section {
+    text-align: center;
+    margin-top: 50px;
+    color: #f0e9e9;
+}

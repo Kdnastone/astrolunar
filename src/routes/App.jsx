@@ -9,6 +9,7 @@ import Mars from "../pages/Mars";
 import Crear from "../pages/Crear";
 import ListaPlanetas from "../storage/ListaPlanetas";
 import Solar from "../pages/Solar";
+import Header from "../components/layout/Header";
 
 const App = () => {
   const handleAddPlanet = (planet) => {
@@ -19,14 +20,7 @@ const App = () => {
 
   return (
     <Router>
-      <nav>
-        <Link to="/home">Información</Link>
-        <Link to="/acerca">Acerca de</Link>
-        <Link to="/mars">Fotos de Marte</Link>
-        <Link to="/crear">Añadir Planeta</Link>
-        <Link to="/ListaPlanetas">Planetas</Link>
-        <Link to="/Solar">Sistema Solar</Link>
-      </nav>
+      <Header></Header>
 
       <Routes>
         <Route path="/home" element={<Home />} />

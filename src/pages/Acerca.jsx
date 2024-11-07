@@ -1,4 +1,3 @@
-
 import React from "react";
 import TeamInfo from "../components/information/TeamInfo";
 import '../styles/Acerca.css'

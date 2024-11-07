@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-container">
       <header className="hero-section">
 
-        <h1>Explorando el sistema solar </h1>
+        <h1>Explorando el sistema solar</h1>
       </header>
 
       <section className="history-section">
