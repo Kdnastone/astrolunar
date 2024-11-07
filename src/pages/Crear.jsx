@@ -1,6 +1,7 @@
 
 // importar librerías necesarias
 import { useState } from "react";
+import "../styles/Form.css"
 
 // Crear componente funcional Crear
 const Crear = ({ onAddPlanet }) => {
@@ -69,9 +70,10 @@ const Crear = ({ onAddPlanet }) => {
         </label>
       </div>
       <div>
-        <label>
+        <label className="file-label">
           Imagen (Seleccionar archivo):
-          <input type="file" accept="image/*" onChange={handleImageChange} />
+          <input type="file" accept="image/*" onChange={handleImageChange} className="file-input" />
+          <span className="custom-file-button">Seleccionar archivo</span>
         </label>
       </div>
       <div>
