@@ -10,21 +10,18 @@ const Acerca = () => {
       
       <section>
   <p>
-  <h2>Nosotras</h2>INNOVADORAS DIGITALES es una iniciativa privada que conecta a las personas con diversas áreas del conocimiento, como ciencia, tecnología y arte, a través de experiencias interactivas. Nos especializamos en crear páginas personalizadas para clientes con intereses educativos, ofreciendo una experiencia única y enriquecedora. 
-  Utilizamos tanto APIs públicas como soluciones desarrolladas a medida para ajustarnos a las necesidades específicas de cada cliente, brindando un acceso atractivo y accesible al aprendizaje.
+  <h2>NUESTRA HISTORIA Y VISIÓN
+  </h2>INNOVADORAS DIGITALES es una iniciativa privada que ofrece a las instituciones páginas personalizadas para que los estudiantes accedan a diferentes áreas del conocimientoe a través de experiencias interactivas. Utilizamos tanto APIs públicas como desarrolladas a medida para adaptar el contenido a las necesidades de aprendizaje de cada estudiante.
+
   </p>
-  <p><h2>Nuestra vision</h2>Ser líderes en la creación de experiencias digitales interactivas que inspiren el aprendizaje y el descubrimiento en áreas como la ciencia, la tecnología y el arte.
-    Aspiramos a convertirnos en un referente educativo innovador que conecta a personas de todas las edades con el conocimiento, a través de plataformas accesibles, creativas y personalizadas.</p>
-  
   <p><h2>Nuestra Misión</h2>
-  Facilitar el acceso al conocimiento mediante el diseño de páginas interactivas que respondan a los intereses educativos de cada cliente.
-  A través de soluciones tecnológicas avanzadas y el uso de APIs tanto públicas como personalizadas, buscamos crear entornos de aprendizaje atractivos y accesibles que impulsen la curiosidad y el desarrollo personal.
+  Ofrecer a las instituciones educativas soluciones digitales personalizadas que proporcionen a los estudiantes acceso interactivo a contenidos educativos.
   </p>
 
   
   <p>
   <h2>Propuesta de Valor</h2>
-    Ofrecemos una experiencia educativa única mediante recursos interactivos y contenidos de alta calidad. Nuestros usuarios desarrollan habilidades prácticas y acceden a una red de expertos en diversas disciplinas, ampliando sus oportunidades de aprendizaje y crecimiento.
+  Proporcionar a las instituciones educativas soluciones digitales personalizadas que mejoren la experiencia de aprendizaje de los estudiantes, facilitando su acceso a contenidos interactivos y relevantes para el desarrollo integral y la actualización de conocimientos.
   </p>
 
   
@@ -38,12 +35,14 @@ const Acerca = () => {
   </p>
   
   <p> <h2>Mercado Potencial</h2>
-    Con el creciente interés por la educación digital en Colombia, Innovadoras Digitales está lista para captar a estudiantes y profesionales en busca de aprendizaje continuo. Planeamos incorporar gamificación, desafíos y recompensas para hacer el proceso educativo más dinámico.
+  El mercado potencial de Innovadoras Digitales abarca a estudiantes de centros educativos en el aprendizaje continuo, así como a instituciones educativas que buscan mejorar su oferta formativa con contenido digital interactivo en diversas áreas del conocimiento.
+
   </p>
 
 
   <p><h2>Escalabilidad</h2>
-    A mediano plazo, expandiremos nuestras operaciones a otros países, diversificando nuestros contenidos conforme a las tendencias educativas globales. Esto nos permitirá llegar a una audiencia internacional.
+  A mediano plazo, planeamos expandir nuestras operaciones a nivel internacional, adaptando y diversificando nuestros contenidos según las tendencias educativas globales, lo que nos permitirá llegar a nuevos mercados y ofrecer soluciones personalizadas para diferentes audiencias.
+
   </p>
 
   
@@ -56,13 +55,17 @@ const Acerca = () => {
         <li><strong>Publicidad Pagada:</strong> inversión en anuncios pagados en Google Ads, Facebook Ads y otras plataformas para llegar a un público más amplio y específico.</li>
       </ul>
     </li>
-    <li><strong>Eventos y Talleres Presenciales:</strong> organizaremos eventos en colegios, universidades y centros educativos, promoviendo nuestra plataforma y estableciendo conexiones directas con usuarios potenciales.</li>
-    <li><strong>Colaboraciones con Expertos:</strong> colaboraremos con figuras destacadas en ciencia, tecnología y arte para aumentar la visibilidad y credibilidad de nuestra plataforma.</li>
+    <li><strong>Eventos y Talleres Presenciales:</strong> Organizaremos eventos en centros educativos para promover nuestra plataforma y establecer conexiones directas con usuarios potenciales, con el fin de obtener retroalimentación que enriquezca nuestros desarrollos y portafolio de servicios.
+    </li>
+    <li><strong>Colaboraciones con Expertos:</strong> Estableceremos alianzas con figuras destacadas en diversos campos del conocimiento para probar nuestras páginas, retroalimentar nuestro contenido y aumentar la visibilidad y credibilidad de nuestra plataforma.
+    </li>
     <li><strong>Pruebas Gratuitas y Demostraciones:</strong> ofreceremos pruebas gratuitas y demostraciones para que los usuarios experimenten el valor de nuestros servicios.</li>
   </ul>
   </p>
   <p><h2>Sostenibilidad</h2>
-    Nuestra iniciativa se basa en la calidad de nuestros contenidos, la innovación continua y el compromiso con nuestra comunidad. A través de prácticas de aprendizaje adaptativo y accesibilidad digital, ofreceremos una experiencia de aprendizaje inclusiva y personalizada, asegurando un crecimiento sostenible en el sector de la educación digital.
+  Nuestra sostenibilidad se basa en la calidad, la innovación y el compromiso con nuestros clientes. 
+Implementamos prácticas de aprendizaje adaptativo y promoviendo la accesibilidad digital, ofreceremos una experiencia de aprendizaje inclusiva y personalizada, garantizando un crecimiento sostenible en el sector de la educación digital.
+
   </p>
 </section>
 
