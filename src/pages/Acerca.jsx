@@ -1,4 +1,3 @@
-
 import React from "react";
 import TeamInfo from "../components/information/TeamInfo";
 
@@ -8,49 +7,55 @@ const Acerca = () => {
     <div>
       <h1>INNOVADORAS DIGITALES</h1>
       <section>
-        <h2>Nuestra Historia</h2>
+        <h2> Nuestra Historia y Visión</h2>
         <p>
-          Visión General 
-          <br />
-          INNOVADORAS DIGITALES es una iniciativa privada que busca acercar a las personas a diferentes áreas de aprendizaje, como la ciencia, la tecnología y el arte, a través de la creación de páginas interactivas diseñadas especialmente para clientes con interés educativo. Estas páginas son desarrolladas utilizando APIs públicas, lo que permite a los usuarios explorar y aprender de manera accesible y atractiva.
+          INNOVADORAS DIGITALES es una iniciativa privada dedicada a acercar a las personas a distintas áreas del conocimiento, como la ciencia, la tecnología y el arte. Creamos páginas interactivas diseñadas para clientes con intereses educativos, ofreciendo una experiencia enriquecedora y personalizada. Usamos APIs públicas y desarrolladas a medida para adaptarnos a las necesidades de cada cliente, brindando un acceso accesible y atractivo al aprendizaje.
           <br />
           Nuestra Misión
           <br />
-          Nuestra misión es crear curiosidad por los temas relacionados en nuestras plataformas y motivar a los estudiantes a explorar oportunidades de estudio, tanto a nivel nacional como internacional.
+          Despertar y fomentar la curiosidad en diversas áreas del saber, impulsando a estudiantes y profesionales a descubrir oportunidades educativas tanto a nivel nacional como internacional.
           <br />
           Propuesta de Valor
           <br />
-          Ofrecemos una experiencia educativa única y atractiva mediante el uso de recursos interactivos y contenidos de alta calidad. Nuestros usuarios desarrollan habilidades prácticas y obtienen acceso a una red de expertos en diversas disciplinas. 
+          Ofrecemos una experiencia educativa única mediante recursos interactivos y contenidos de alta calidad. Nuestros usuarios desarrollan habilidades prácticas y acceden a una red de expertos en diversas disciplinas, ampliando sus oportunidades de aprendizaje y crecimiento.
           <br />
           Modelo de Negocio
           <br />
-          Nuestros ingresos se obtendrán a través de:
+          Generamos ingresos mediante las siguientes fuentes:
           <br />
-          Suscripciones premium para aquellas instituciones que quieran acceso a contenido exclusivo como oferta de becas. 
+          Suscripciones premium: acceso a contenido exclusivo para instituciones educativas, incluyendo becas y formación especializada.
           <br />
-          Colaboraciones con instituciones educativas.
+          Colaboraciones con instituciones educativas: alianzas para desarrollar y compartir contenido de manera conjunta.
           <br />
-          Talleres en línea y eventos con expertos.
+          Talleres en línea y eventos con expertos: oportunidades para que los usuarios interactúen con figuras destacadas en ciencia, tecnología y arte.
           <br />
           Mercado Potencial
           <br />
-          Con un creciente interés en la educación digital, especialmente en Colombia, estamos posicionados para captar un segmento de estudiantes y profesionales en búsqueda de aprendizaje continuo.
+          Con el creciente interés por la educación digital en Colombia, Innovadoras Digitales está lista para captar a estudiantes y profesionales en busca de aprendizaje continuo. Planeamos incorporar gamificación, desafíos y recompensas para hacer el proceso educativo más dinámico.
           <br />
           Escalabilidad
           <br />
-          Planeamos expandir nuestras operaciones a otros países y agregar nuevos temas de aprendizaje basados en las tendencias del mercado.
+          A mediano plazo, expandiremos nuestras operaciones a otros países, diversificando nuestros contenidos conforme a las tendencias educativas globales. Esto nos permitirá llegar a una audiencia internacional.
           <br />
           Estrategia de Marketing
           <br />
-          Atraeremos usuarios a través de campañas digitales, colaboraciones con influenciadores y ofertas promocionales.
+          Para posicionar y hacer crecer nuestra marca, utilizaremos las siguientes estrategias:
           <br />
-          Impacto Social
+1. Marketing Digital:
           <br />
-          Nos comprometemos a apoyar a comunidades desfavorecidas mediante acceso gratuito a recursos y talleres en escuelas locales.
+Redes Sociales: en Facebook, Instagram, LinkedIn y Twitter compartiremos contenido educativo, interactuaremos con nuestra audiencia y promocionaremos nuestros servicios.
           <br />
+	Publicidad Pagada: inversión en anuncios pagados en Google Ads, Facebook Ads y otras plataformas para llegar a un público más amplio y específico.
+          <br />
+2. Eventos y Talleres Presenciales: organizaremos eventos en colegios, universidades y centros educativos, promoviendo nuestra plataforma y estableciendo conexiones directas con usuarios potenciales.
+<br />
+3. Colaboraciones con Expertos: colaboraremos con figuras destacadas en ciencia, tecnología y arte para aumentar la visibilidad y credibilidad de nuestra plataforma.
+<br />
+4. Pruebas Gratuitas y Demostraciones: ofreceremos pruebas gratuitas y demostraciones para que los usuarios experimenten el valor de nuestros servicios.
+<br />
           Sostenibilidad
           <br />
-          Nuestra iniciativa se basará en la calidad del contenido, la innovación continua y el compromiso con nuestra comunidad para asegurar un crecimiento sostenible.
+          Nuestra iniciativa se basa en la calidad de nuestros contenidos, la innovación continua y el compromiso con nuestra comunidad. A través de prácticas de aprendizaje adaptativo y accesibilidad digital, ofreceremos una experiencia de aprendizaje inclusiva y personalizada, asegurando un crecimiento sostenible en el sector de la educación digital.
         </p>
       </section>
       {/* Cards de los miembros del equipo */}
