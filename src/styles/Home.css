@@ -84,11 +84,16 @@ body {
     color: #e1dede;
     font-size: 1rem;
     line-height: 1.6;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3)
     display: flex;
     align-items: center;
+    transition: transform 0.2s ease-in-out;
 }
-
+.history-section li::before {
+    content: "🚀";
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
 .footer-section {
     text-align: center;
     margin-top: 50px;
