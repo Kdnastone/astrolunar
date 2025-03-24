@@ -70,6 +70,26 @@ body {
     line-height: 1.6;
     color: #e1dede;
 }
+.history-section ul {
+    list-style-type: none; /* Elimina los bullets predeterminados */
+    padding: 0;
+    margin: 20px 0;
+}
+.history-section li {
+    background: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.history-section li::before {
+    content: "🚀"; /* Emoji de cohete como icono */
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
 .footer-section {
     text-align: center;
     margin-top: 50px;
