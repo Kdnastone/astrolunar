@@ -11,7 +11,7 @@ const Acerca = () => {
       <section>
   <p>
   <h2>NUESTRA HISTORIA Y VISIÓN
-  </h2>INNOVADORAS DIGITALES es una iniciativa privada que ofrece a las instituciones páginas personalizadas para que los estudiantes accedan a diferentes áreas del conocimientoe a través de experiencias interactivas. Utilizamos tanto APIs públicas como desarrolladas a medida para adaptar el contenido a las necesidades de aprendizaje de cada estudiante.
+  </h2>INNOVADORAS DIGITALES es una iniciativa privada que ofrece a las instituciones páginas personalizadas para que los estudiantes accedan a diferentes áreas del conocimiento a través de experiencias interactivas. Utilizamos tanto APIs públicas como desarrolladas a medida para adaptar el contenido a las necesidades de aprendizaje de cada estudiante.
 
   </p>
   <p><h2>Nuestra Misión</h2>
