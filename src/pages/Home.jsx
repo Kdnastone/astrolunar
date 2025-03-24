@@ -9,14 +9,14 @@ const Home = () => {
       <h1>Explorando el Sistema Solar</h1>
 
       <section className="history-section">
-        <h2>Nuestra Historia</h2>
+        <h2>Sobre la Página</h2>
 
         <p>
           Esta página utiliza la API de la NASA, específicamente aquella 
           relacionada con Marte. La API recopila datos e imágenes obtenidas 
           por los rovers Curiosity, Opportunity y Spirit, permitiendo su acceso 
           a estudiantes, educadores y ciudadanos interesados en la exploración 
-          del planeta rojo.
+          del planeta rojo, desarrollada por el equipo de trabajo del grupo INNOVADORAS DIGITALES.
         </p>
 
         <p>
@@ -24,22 +24,22 @@ const Home = () => {
         </p>
         <ul>
           <li>
-            <strong>Acerca:</strong> Información sobre el equipo desarrollador de 
-            <em> Innovadoras Digitales </em>.
+            <strong>Acerca: </strong> Información sobre el equipo desarrollador de 
+             <em> Innovadoras Digitales </em>.
           </li>
           <li>
-            <strong>Mars:</strong> Imágenes capturadas por los rovers Curiosity, 
+            <strong>Mars: </strong> Imágenes capturadas por los rovers Curiosity, 
             Opportunity y Spirit en Marte.
           </li>
           <li>
-            <strong>Crear:</strong> Opción para diseñar un planeta personalizado, 
+            <strong>Crear: </strong> Opción para diseñar un planeta personalizado, 
             asignándole un nombre, una descripción y una imagen.
           </li>
           <li>
-            <strong>Lista de Planetas:</strong> Visualización de los planetas creados.
+            <strong>Lista de Planetas: </strong> Visualización de los planetas creados.
           </li>
           <li>
-            <strong>Solar:</strong> Interacción con el visualizador del Sistema Solar 
+            <strong>Solar: </strong> Interacción con el visualizador del Sistema Solar 
             de la NASA.
           </li>
         </ul>
