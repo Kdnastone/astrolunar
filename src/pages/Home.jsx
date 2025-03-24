@@ -25,7 +25,7 @@ const Home = () => {
         <ul>
           <li>
             <strong>Acerca: </strong> Información sobre el equipo desarrollador de 
-             <em> Innovadoras Digitales </em>.
+             INNOVADORAS DIGITALES.
           </li>
           <li>
             <strong>Mars: </strong> Imágenes capturadas por los rovers Curiosity, 
