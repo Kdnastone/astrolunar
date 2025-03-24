@@ -71,25 +71,31 @@ body {
     color: #e1dede;
 }
 .history-section ul {
-    list-style-type: none; /* Elimina los bullets predeterminados */
+    list-style-type: none;
     padding: 0;
     margin: 20px 0;
 }
+
 .history-section li {
-    background: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
-    padding: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 12px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    color: #ffffff;
+    border-radius: 8px;
+    color: #e1dede;
     font-size: 1rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
 }
+
 .history-section li::before {
-    content: "🚀"; /* Emoji de cohete como icono */
+    content: "🌌"; /
     margin-right: 10px;
     font-size: 1.2rem;
+    color: #e1dede;
 }
+
 .footer-section {
     text-align: center;
     margin-top: 50px;
