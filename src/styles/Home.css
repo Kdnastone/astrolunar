@@ -90,7 +90,7 @@ body {
 }
 
 .history-section li::before {
-    content: "🌌"; /
+    content: "🌌"; 
     margin-right: 10px;
     font-size: 1.2rem;
     color: #e1dede;
