@@ -71,9 +71,9 @@ body {
     color: #e1dede;
 }
 .history-section ul {
-    list-style-type: none;
     padding: 0;
     margin: 20px 0;
+    list-style-type: none;
 }
 
 .history-section li {
@@ -87,13 +87,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
-}
-
-.history-section li::before {
-    content: "🌌"; 
-    margin-right: 10px;
-    font-size: 1.2rem;
-    color: #e1dede;
 }
 
 .footer-section {
