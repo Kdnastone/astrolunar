@@ -16,9 +16,12 @@ const Home = () => {
           relacionada con Marte. La API recopila datos e imágenes obtenidas 
           por los rovers Curiosity, Opportunity y Spirit, permitiendo su acceso 
           a estudiantes, educadores y ciudadanos interesados en la exploración 
-          del planeta rojo. En el menú superior encontrarás las siguientes secciones:
+          del planeta rojo.
         </p>
 
+        <p>
+          En el menú superior encontrarás las siguientes secciones:
+        </p>
         <ul>
           <li>
             <strong>Acerca:</strong> Información sobre el equipo desarrollador de 
