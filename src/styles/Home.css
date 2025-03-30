@@ -109,7 +109,7 @@ li:hover{
     background: rgba(0, 0, 0, 0.6); 
     color: #f0e9e9;
     text-align: center;
-    padding: 4px; 
+    padding: 10px; 
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3); 
     font-size: 1rem;
 
@@ -120,11 +120,24 @@ li:hover{
     .menu-container {
         padding: 8px 0;
     }
+    .footer-section {
+        font-size: 0.95rem;
+        padding: 8px;
+        position: absolute;
+        top: 201%;
+    }
 }
 
 @media (max-width: 992px) {
     .menu-container {
         padding: 6px 0;
+    }
+    .footer-section {
+        font-size: 0.9rem;
+        padding: 8px;
+        position: absolute;
+        top: 211%;
+        height: 16%;
     }
 }
 
@@ -132,10 +145,23 @@ li:hover{
     .menu-container {
         padding: 4px 0;
     }
+    .footer-section {
+        font-size: 0.8rem;
+        padding: 6px;
+        position: absolute;
+        top: 217%;
+    }
 }
 
 @media (max-width: 576px) {
     .menu-container {
         padding: 2px 0;
+    }
+    .footer-section {
+        font-size: 0.75rem;
+        padding: 4px;
+        position: absolute;
+        top: 261%;
+        height: 22%;
     }
 }
