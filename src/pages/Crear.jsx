@@ -48,6 +48,7 @@ const Crear = ({ onAddPlanet }) => {
   return (
     // Formulario para añadir un planeta
     <form onSubmit={handleSubmit}>
+      <h2>Crear Planeta</h2>
       <div>
         <label>
           Nombre:
@@ -71,9 +72,10 @@ const Crear = ({ onAddPlanet }) => {
       </div>
       <div>
         <label className="file-label">
+        <span className="custom-file-button">Seleccionar archivo</span>
           Imagen (Seleccionar archivo):
           <input type="file" accept="image/*" onChange={handleImageChange} className="file-input" />
-          <span className="custom-file-button">Seleccionar archivo</span>
+          
         </label>
       </div>
       <div>

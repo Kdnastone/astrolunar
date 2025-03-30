@@ -1,30 +1,44 @@
     form {
-        background-color: rgba(0, 0, 0, 0.6);
-        padding: 30px;
         border-radius: 20px;
         max-width: 500px;
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
         text-align: left;
-        margin: 0 auto;
         animation: fadeIn 1s ease-out;
+        background: linear-gradient(90deg, #0d1b2ab3, #1b263b96);
+        padding: 40px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+        text-align: center;
+        margin: 20px auto;
+
     }
-    
+
+    h2 {
+        color: #66c2ff;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
     form div {
         margin-bottom: 20px;
     }
-    
+
     form label {
         color: #b4dbdb;
-        font-size: 1.2rem;
+        font-size: 1rem;
         display: block;
-        margin-bottom: 8px;
+        font-weight: bold;
+        margin-bottom: 5px;
     }
-    
+
     form input[type="text"],
     form input[type="file"],
     form textarea {
-        width: 90%;
-        padding: 10px;
+        width: 93%;
+        padding: 12px;
         font-size: 1.5rem;
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.5);
@@ -33,19 +47,19 @@
         outline: none;
         transition: background-color 0.3s ease, transform 0.2s ease-in-out;
     }
-    
+
     form input[type="text"]:focus,
     form input[type="file"]:focus,
     form textarea:focus {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.7);
         transform: scale(1.02);
     }
-    
+
     form textarea {
-        height: 100px;
+        height: 120px;
         resize: none;
     }
-    
+
     button[type="submit"] {
         background-color: #66c2ff;
         color: #ffffff;
@@ -58,23 +72,24 @@
         transition: background-color 0.3s ease, transform 0.2s ease-in-out;
         display: block;
         margin: 0 auto;
+        width: 100%;
     }
-    
+
     button[type="submit"]:hover {
         background-color: #ff9f00;
         transform: scale(1.05);
     }
-    
+
     button[type="submit"]:active {
         background-color: #ff1493;
     }
-    
+
     h3 {
         color: #a7c7e7;
         font-size: 1.3rem;
         text-align: center;
     }
-    
+
     img {
         display: block;
         margin: 15px auto;
@@ -83,70 +98,76 @@
         max-width: 150px;
         max-height: 150px;
     }
-    
-    
+
+
     @keyframes fadeIn {
         from {
-        opacity: 0;
-        transform: translateY(20px);
+            opacity: 0;
+            transform: translateY(20px);
         }
+
         to {
-        opacity: 1;
-        transform: translateY(0);
+            opacity: 1;
+            transform: translateY(0);
         }
     }
+
     .file-label {
-    display: inline-flex;
-    align-items: center;
-    gap: 90px;
-    font-size: 1rem;
-    color: #b4dbdb;
+        display: inline-flex;
+        align-items: center;
+        gap: 90px;
+        font-size: 1rem;
+        color: #b4dbdb;
     }
 
     .file-input {
-    display: none;
+        display: none;
     }
 
     .custom-file-button {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: #66c2ff;
-    color: #ffffff;
-    font-size: 0.9rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #66c2ff;
+        color: #ffffff;
+        font-size: 0.9rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease-in-out;
     }
 
     .custom-file-button:hover {
-    background-color: #ff9f00;
-    transform: scale(1.05);
+        background-color: #ff9f00;
+        transform: scale(1.05);
     }
 
     .custom-file-button:active {
-    background-color: #ff1493;
+        background-color: #ff1493;
     }
+
     /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    form {
-        padding: 20px;
-        max-width: 90%;
+    @media (max-width: 768px) {
+        form {
+            padding: 20px;
+            max-width: 90%;
+        }
+
+        form label {
+            font-size: 1rem;
+        }
     }
 
-    form label {
-        font-size: 1rem;
-    }
-}
+    @media (max-width: 480px) {
+        form {
+            padding: 20px;
+            max-width: 100%;
+        }
 
-@media (max-width: 480px) {
-    form {
-        padding: 15px;
-        max-width: 100%;
+        form label {
+            font-size: 0.9rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+        }
     }
-
-    form label {
-        font-size: 0.9rem;
-    }
-}

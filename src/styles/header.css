@@ -1,7 +1,7 @@
 nav {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(0 0 0 / 93%);
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -14,8 +14,8 @@ nav {
 }
 
 .main-content {
-    margin-top: 70px;
-    padding-top: 150px; 
+    margin-top: -33px;
+    padding-top: -4px; 
 }
 
 nav a {
