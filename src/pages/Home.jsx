@@ -52,7 +52,7 @@ const Home = () => {
       </section>
 
       <footer className="footer-section">
-        <p>© 2024 Explorador del Sistema Solar. Todos los derechos reservados.</p>
+        <p>© 2024 Explorador del Sistema Solar. Todos los derechos reservados. </p>
       </footer>
     </div>
   );
