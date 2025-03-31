@@ -33,9 +33,51 @@ const ListaPlanetas = () => {
           <li key={index}>
             <h2>{planet.name}</h2>
             <p>{planet.description}</p>
-            {planet.image && <img src={planet.image} alt={planet.name} style={{ width: "100px", height: "100px" }} />}
-            <button onClick={() => handleEdit(index)}>Editar</button>
-            <button onClick={() => handleDelete(index)}>Eliminar</button>
+            {planet.image && <img src={planet.image} alt={planet.name} style={{ width: "150px", height: "150px" }} />}
+            <button
+              onClick={() => handleEdit(index)}
+              style={{
+                padding: "10px 15px",
+                margin: "5px",
+                border: "none",
+                cursor: "pointer",
+                fontSize: "1rem",
+                borderRadius: "5px",
+                transition: "all 0.3s ease",
+                fontWeight: "bold",
+                background: "#66c2ff",
+                color: "white",
+                border: "2px solid #07073db8"
+              }}
+              onMouseOver={(e) => (e.target.style.transform = "scale(1.05)")}
+              onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+              onMouseDown={(e) => (e.target.style.transform = "scale(0.95)")}
+            >
+              Editar
+            </button>
+
+            <button
+              onClick={() => handleDelete(index)}
+              style={{
+                padding: "10px 15px",
+                margin: "5px",
+                border: "none",
+                cursor: "pointer",
+                fontSize: "1rem",
+                borderRadius: "5px",
+                transition: "all 0.3s ease",
+                fontWeight: "bold",
+                background: "#07073db8",
+                color: "white",
+                border: "2px solid #07073db8"
+              }}
+              onMouseOver={(e) => (e.target.style.transform = "scale(1.05)")}
+              onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+              onMouseDown={(e) => (e.target.style.transform = "scale(0.95)")}
+            >
+              Eliminar
+            </button>
+
           </li>
         ))}
       </ul>
