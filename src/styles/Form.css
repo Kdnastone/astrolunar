@@ -162,8 +162,11 @@
     @media (max-width: 480px) {
         form {
             padding: 20px;
-            max-width: 100%;
-            margin: 500px;
+            max-width: 85%;
+            margin: -90px;
+            left: 25%;
+            position: absolute;
+            top: 42%;
         }
         
 

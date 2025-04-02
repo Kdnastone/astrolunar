@@ -157,6 +157,10 @@ li:hover{
     .menu-container {
         padding: 2px 0;
     }
+
+    .home-container{
+        margin: -134px auto;
+    }
     .footer-section {
         font-size: 0.75rem;
         padding: 4px;
